@@ -1,0 +1,141 @@
+.login-box-warp {
+  position: absolute;
+  top: 120px;
+  right: 60px;
+  width: 350px;
+}
+.login-box-warp .login-box {
+  background-color: hsla(0, 0%, 100%, 0.9);
+  position: relative;
+}
+#login .corner-icon-view {
+  position: static;
+}
+#login .corner-icon-view .iconfont {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 52px;
+  line-height: 52px;
+  cursor: pointer;
+  color: #f40;
+}
+#login .corner-icon-view .hide-icon {
+  position: absolute;
+  border-top: 26px solid transparent;
+  border-right: 26px solid transparent;
+  border-left: 27px solid hsla(0, 0%, 100%, 0.95);
+  border-bottom: 27px solid hsla(0, 0%, 100%, 0.95);
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+  display: block;
+  width: 0;
+  height: 0;
+}
+#login .corner-icon-view .login-tip {
+  top: 5px;
+  right: 58px;
+}
+#login .corner-icon-view .login-tip .poptip {
+  border: 1px solid #f3d995;
+  background: #fefcee;
+}
+#login #login-form .sns-login-links {
+  text-align: left;
+}
+#login .weibo-login {
+  margin-left: 0;
+}
+#login .weibo-login .iconfont {
+  color: #e52425;
+  font-size: 16px;
+  margin-right: 3px;
+}
+#login .alipay-login .iconfont {
+  color: #1ba9ee;
+  font-size: 16px;
+  margin-left: 3px;
+}
+.corner-icon-view .poptip .poptip-arrow em,
+.corner-icon-view .poptip .poptip-arrow span {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: hsla(0, 0%, 100%, 0);
+  border-style: solid;
+  overflow: hidden;
+}
+.corner-icon-view {
+  position: relative;
+  height: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+.corner-icon-view .iconfont {
+  display: block;
+}
+.corner-icon-view .login-tip {
+  position: absolute;
+  display: block;
+}
+.corner-icon-view .poptip {
+  line-height: 16px;
+  position: relative;
+  z-index: 9999;
+  padding: 5px 10px;
+}
+.corner-icon-view .poptip .poptip-arrow {
+  position: absolute;
+  z-index: 10;
+  top: 8px;
+  right: 0;
+}
+.corner-icon-view .poptip .poptip-arrow em {
+  top: 0;
+  left: 1px;
+  border-left-color: #ff9000;
+  border-width: 6px 0 6px 6px;
+}
+.corner-icon-view .poptip .poptip-arrow span {
+  border-left-color: #fefcee;
+  border-width: 6px 0 6px 6px;
+}
+.corner-icon-view .poptip .poptip-content {
+  color: #ff9000;
+  font-size: 12px;
+  font-weight: 400;
+}
+.nc-outer-box {
+  padding-top: 2px;
+}
+.login-blocks {
+  margin: 8px 0;
+  text-align: right;
+  zoom: 1;
+}
+.login-view-password .login-switch-tab,
+.login-view-sms .login-switch-tab {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 4px;
+}
+.login-view-password .password-login-tab-item,
+.login-view-sms .sms-login-tab-item {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #000;
+}
+#login .login-links,
+#login .sns-login-links {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+#login .login-links a,
+#login .sns-login-links a {
+  margin: 0 3px;
+}
+.native-phone-code-select-wrap {
+  position: absolute;
+  left: 40px;
+  bottom: 0;
+}

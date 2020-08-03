@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.a-all a:hover {
+  color: red;
+}
+#suspen {
+  position: relative;
+  z-index: 999;
+}
+.Listpage {
+  width: 710px;
+  height: 532px;
+  border: 2px solid red;
+  background-color: white;
+  z-index: 2;
+  margin-left: 190px;
+  position: absolute;
+  padding-left: 20px;
+  display: none;
+}
+.Listpage .Listpage-1 {
+  width: 580px;
+  height: 528px;
+  border-right: 1px solid gray;
+}
+.Listpage .Listpage-1 .lit1 {
+  height: 176px;
+  overflow: hidden;
+}
+.Listpage .Listpage-1 .lit1 li {
+  margin-bottom: 10px;
+}
+.Listpage .Listpage-1 .lit1 li span {
+  margin-right: 10px;
+}
+.Listpage .Listpage-1 .lit1 li:nth-child(1) {
+  margin-top: 10px;
+}
+.Listpage .Listpage-1 .lit1 li:nth-child(1) .first-1 {
+  font-size: 20px;
+  color: black;
+}
+.Listpage .Listpage-1 .lit1 li:nth-child(1) span:nth-child(2) {
+  float: right;
+}
+.Listpage .Listpage-1 .lit2 {
+  height: 176px;
+  overflow: hidden;
+}
+.Listpage .Listpage-1 .lit2 li {
+  margin-bottom: 10px;
+}
+.Listpage .Listpage-1 .lit2 li span {
+  margin-right: 10px;
+}
+.Listpage .Listpage-1 .lit2 li:nth-child(1) {
+  margin-top: 10px;
+}
+.Listpage .Listpage-1 .lit2 li:nth-child(1) .first-1 {
+  font-size: 20px;
+  color: black;
+}
+.Listpage .Listpage-1 .lit2 li:nth-child(1) span:nth-child(2) {
+  float: right;
+}
+.Listpage .Listpage-1 .lit3 {
+  height: 176px;
+  overflow: hidden;
+}
+.Listpage .Listpage-1 .lit3 li {
+  margin-bottom: 10px;
+}
+.Listpage .Listpage-1 .lit3 li span {
+  margin-right: 10px;
+}
+.Listpage .Listpage-1 .lit3 li:nth-child(1) {
+  margin-top: 10px;
+}
+.Listpage .Listpage-1 .lit3 li:nth-child(1) .first-1 {
+  font-size: 20px;
+  color: black;
+}
+.Listpage .Listpage-1 .lit3 li:nth-child(1) .first-1 a:hover {
+  color: red;
+}
+.Listpage .Listpage-1 .lit3 li:nth-child(1) span:nth-child(2) {
+  float: right;
+}

@@ -1,0 +1,235 @@
+#header {
+  padding: 22px 0;
+  height: 88px;
+}
+
+.logo {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+
+  & h1 {
+    display: block;
+    float: left;
+    zoom: 1;
+    width: 110px;
+    height: 44px;
+
+    & a {
+      text-decoration: none;
+      display: block;
+    }
+
+    & .iconfont {
+      display: block;
+      color: #f40;
+      font-weight: 400;
+    }
+
+    & .icon-taobaowang {
+      position: relative;
+      font-size: 36px;
+      top: -9px;
+    }
+
+    & .icon-taobao {
+      position: relative;
+      font-size: 50px;
+      top: -52px;
+    }
+  }
+
+  & .link {
+    float: right;
+    line-height: 44px;
+    color: #666;
+    font-size: 12px;
+    text-decoration: none;
+
+    & .iconfont {
+      font-size: 16px;
+      color: #f40;
+    }
+
+    & .icon-ai42 {
+      font-size: 20px;
+      position: relative;
+      top: 4px;
+      left: 4px;
+    }
+  }
+
+  & .link:hover {
+    color: #f40;
+  }
+}
+
+#content {
+  width: 100%;
+  position: relative;
+
+  .content-layout {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+    z-index: 2;
+  }
+}
+
+.logo-newbg {
+  background-image: url('../img/login_bg.jpg');
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  height: 600px;
+}
+
+.login-box,
+.reg-box {
+  width: 350px;
+  min-height: 350px;
+  padding: 25px 25px 23px;
+  color: #6c6c6c;
+  background: #fff;
+  position: relative;
+  margin: 0 auto;
+}
+
+.login-box a {
+  color: #6c6c6c;
+  font-size: 12px;
+}
+
+#login.width-vertical,
+#reg.width-vertical {
+  margin-bottom: 0;
+
+  .login-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.login-view-password .login-switch-tab .password-login-tab-item,
+.login-view-password .login-switch-tab .sms-login-tab-item,
+.login-view-sms .login-switch-tab .password-login-tab-item,
+.login-view-sms .login-switch-tab .sms-login-tab-item,
+.reg-title {
+  height: 18px;
+  line-height: 5px;
+  font-size: 16px;
+  color: #3c3c3c;
+  margin: 9px 10px 0 0;
+  font-weight: 700;
+}
+
+#login .login-error,
+#reg .reg-error {
+  border-color: #ffb4a8;
+  background-color: #fef2f2;
+  margin-top: -11px;
+  position: relative;
+  margin-bottom: 10px;
+
+  .iconfont {
+    line-height: 20px;
+  }
+}
+
+.login-error,
+.reg-error {
+  border: 1px solid #ff934c;
+  background: #fefcee;
+  margin-bottom: 16px;
+  font-size: 14px;
+  padding: 5px 8px;
+  overflow: hidden;
+
+  .iconfont {
+    color: #ff934c;
+    float: left;
+  }
+
+  .login-error-msg,
+  .reg-error-msg {
+    font-size: 12px;
+    padding-left: 20px;
+  }
+}
+
+.fm-field {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 14px;
+
+  .fm-label-icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+    background-color: #ccc;
+
+    .iconfont {
+      font-size: 24px;
+    }
+  }
+
+  .fm-text {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 42px;
+    outline: none;
+    font-size: 14px;
+    padding-left: 50px;
+    border-color: #f1eeee;
+  }
+}
+
+.fm-btn {
+  width: 100%;
+
+  .fm-button {
+    background: #f40;
+    border-color: #f40;
+    font-size: 16px;
+  }
+}
+
+.fm-field-sms {
+  .send-btn {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    line-height: 40px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.fm-button {
+  background-color: #ff9000;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff9000), to(#ff9000));
+  background-image: linear-gradient(90deg, #ff9000, #ff9000);
+  border: 1px solid #ff9000;
+  border-radius: 3px;
+  font-size: 20px;
+  height: 42px;
+  line-height: 42px;
+  outline: none;
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+}

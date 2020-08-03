@@ -1,0 +1,31 @@
+.reg-box-warp {
+  position: absolute;
+  top: 45px;
+  right: 60px;
+  width: 350px;
+}
+.reg-box-warp .reg-box {
+  background-color: hsla(0, 0%, 100%, 0.9);
+  position: relative;
+}
+.reg-box-warp .reg-box a {
+  color: #6c6c6c;
+  font-size: 12px;
+}
+.nc-outer-box {
+  padding-top: 2px;
+}
+.reg-block {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 4px;
+}
+.reg-form .reg-link {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.reg-link-right {
+  margin: 8px 0;
+  text-align: right;
+  zoom: 1;
+}
